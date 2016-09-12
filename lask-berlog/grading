@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+source ~/Documents/bbfetch/venv/bin/activate
+cd ~/Documents/undervisning/16q1berlog
+python3 grading.py "$@"
